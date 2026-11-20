@@ -1,0 +1,17 @@
+{
+    "storeName":"Biedronka",
+    "isActive":true,
+    "lastUpdated":"2026-11-20T13:11:00",
+    "products":[
+        {
+            "id":1,
+            "name":"butter",
+            "price":3.99,
+            "tags":["diary","fat"],
+            "specs":{
+                "manufacturer":"mleczna dolina",
+                "warrantyMonths":3
+            }
+        }
+    ]
+}

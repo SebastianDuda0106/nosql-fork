@@ -1,0 +1,16 @@
+{
+    "$schema": "./order_schema.json",
+    "orderID": "1",
+    "customer": {
+        "fullName": "Sebastian Duda",
+        "email": "sebastianduda@outlook.com"
+    },
+    "items": [
+        {
+            "sku": "LAP-HP-PRO-16-512-A1",
+            "quantity": 1,
+            "price": 3999.99
+        }
+    ],
+    "status": "pending"
+}

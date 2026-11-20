@@ -1,0 +1,121 @@
+{
+  "university": "Tech University",
+  "semester": 5,
+  "courseList": [
+    {
+      "code": "CS101",
+      "title": "Introduction to Computer Science",
+      "instructor": {
+        "fullName": "John Doe",
+        "academicTitle": "Professor",
+        "email": "JohnDoe@techuni.com"
+      },
+      "enrolledStudents":[
+        {
+          "studentID":1,
+          "finalGrade":4
+        },
+        {
+          "studentID":2,
+          "finalGrade":4
+        },
+        {
+          "studentID":3,
+          "finalGrade":5
+        }
+      ]
+    },
+    {
+      "code": "CS102",
+      "title": "Data Structures & Algorithms",
+      "instructor": {
+        "fullName": "Jane Smith",
+        "academicTitle": "Professor",
+        "email": "JaneSmith@techuni.com"
+      },
+      "enrolledStudents":[
+        {
+          "studentID":1,
+          "finalGrade":3
+        },
+        {
+          "studentID":2,
+          "finalGrade":5
+        },
+        {
+          "studentID":3,
+          "finalGrade":4
+        }
+      ]
+    },
+    {
+      "code": "CS103",
+      "title": "Relational Databases & SQL",
+      "instructor": {
+        "fullName": "Alan Turing",
+        "academicTitle": "Professor",
+        "email": "AlanTuring@techuni.com"
+      },
+      "enrolledStudents":[
+        {
+          "studentID":1,
+          "finalGrade":4
+        },
+        {
+          "studentID":2,
+          "finalGrade":4
+        },
+        {
+          "studentID":3,
+          "finalGrade":4
+        }
+      ]
+    },
+    {
+      "code": "CS104",
+      "title": "Object-Oriented Programming in Java",
+      "instructor": {
+        "fullName": "Grace Hopper",
+        "academicTitle": "Professor",
+        "email": "GraceHopper@techuni.com"
+      },
+      "enrolledStudents":[
+        {
+          "studentID":1,
+          "finalGrade":4
+        },
+        {
+          "studentID":2,
+          "finalGrade":3
+        },
+        {
+          "studentID":3,
+          "finalGrade":5
+        }
+      ]
+    },
+    {
+      "code": "CS105",
+      "title": "Web Development Fundamentals",
+      "instructor": {
+        "fullName":"Tim Berners-Lee",
+        "academicTitle":"Doctor",
+        "email":"TimeBerners-Lee@techuni.com"
+      },
+      "enrolledStudents":[
+        {
+          "studentID":1,
+          "finalGrade":3
+        },
+        {
+          "studentID":2,
+          "finalGrade":5
+        },
+        {
+          "studentID":3,
+          "finalGrade":5
+        }
+      ]
+    }
+  ]
+}

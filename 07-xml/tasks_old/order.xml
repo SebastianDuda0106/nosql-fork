@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="order_schema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<order>
+    <orderId>1</orderId>
+    <customer>
+        <fullName>Sebastian</fullName>
+        <email>236532@student.uek.krakow.pl</email>
+    </customer>
+    <items>
+        <item>
+            <sku>milk</sku>
+            <quantity>21</quantity>
+            <unitPrice>4.20</unitPrice>
+        </item>
+    </items>
+    <status>delivered</status>
+</order>

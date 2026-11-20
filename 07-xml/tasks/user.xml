@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./user_schema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<user>
+  <username>adminuser</username>
+  <email>valid-email-address@gmail.com</email>
+  <age>18</age>
+  <roles>
+    <role>admin</role>
+    <role>moderator</role>
+    <role>technician</role>
+  </roles>
+</user>

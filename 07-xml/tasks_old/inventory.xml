@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory>
+    <storeName>Store1</storeName>
+    <isActive>true</isActive>
+    <lastUpdated>2026-11-10T01:02:32Z</lastUpdated>
+    <products>
+        <product>
+            <id>1</id>
+            <name>milk</name>
+            <price>3.99</price>
+            <tags>
+                <tag>fat</tag>
+                <tag>16%</tag>
+            </tags>
+            <specs>
+                <manufacturer>Milka</manufacturer>
+                <warrantyMonths>3</warrantyMonths>
+            </specs>
+        </product>
+    </products>
+</inventory>

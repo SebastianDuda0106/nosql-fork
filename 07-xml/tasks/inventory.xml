@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory
+    storename="Biedronka"
+    isActive="true"
+    lastUpdated="2026-11-20T18:05:00">
+    <products>
+        <product id="1">
+            <name>Milk</name>
+            <price>4.99</price>
+            <tags>
+                <tag>Fat</tag>
+                <tag>Diary</tag>
+                <tag>3.2%</tag>
+            </tags>
+            <specs>
+                <manufacturer>Mleczna dolina</manufacturer>
+                <warrantyMonths>3</warrantyMonths>
+            </specs>
+        </product>
+        <product id="2">
+            <name>Butter</name>
+            <price>2.99</price>
+            <tags>
+                <tag>Diary</tag>
+                <tag>Fat</tag>
+                <tag>82%</tag>
+            </tags>
+            <specs>
+                <manufacturer>Masło Polskie</manufacturer>
+                <warrantyMonths>2</warrantyMonths>
+            </specs>
+        </product>
+        <product id="3">
+            <name>Cheese</name>
+            <price>5.99</price>
+            <tags>
+                <tag>500g</tag>
+                <tag>Diary</tag>
+            </tags>
+            <specs>
+                <manufacturer>Gouda</manufacturer>
+                <warrantyMonths>3</warrantyMonths>
+            </specs>
+        </product>
+    </products>
+</inventory>

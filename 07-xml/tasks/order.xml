@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./order_schema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<order>
+    <orderId>1</orderId>
+    <customer>
+        <fullName>Sebastian Duda</fullName>
+        <email>sebastianduda@gmail.com</email>
+    </customer>
+    <items>
+        <item>
+            <sku>LAP-HP-16-512-TOP</sku>
+            <quantity>1</quantity>
+            <unitPrice>3999.99</unitPrice>
+        </item>
+        <item>
+            <sku>PAS-TER-75-250</sku>
+            <quantity>2</quantity>
+            <unitPrice>4.99</unitPrice>
+        </item>
+    </items>
+    <status>pending</status>
+</order>

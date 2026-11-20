@@ -1,0 +1,11 @@
+{
+    "$schema": "./product_schema.json",
+    
+    "productId": 56,
+    "title": "Laptop",
+    "price": 457.00,
+    "currency":"€",
+    "category": "electronics",
+    "inStock": false
+
+}

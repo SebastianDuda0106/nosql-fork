@@ -1,0 +1,7 @@
+{
+  "$schema": "./user_schema.json",
+  "username": "adminuser",
+  "email": "valid-email-address@gmail.com",
+  "age": 18,
+  "roles": ["administrator", "technician", "moderator"]
+}

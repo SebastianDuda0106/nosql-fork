@@ -1,0 +1,145 @@
+--task1
+
+
+--Step A
+SET session:token:xyz987 "user_42"
+EXPIRE session:token:xyz987 30
+TTL session:token:xyz987
+GET session:token:xyz987
+
+--step B
+SET stats:pageviews:home 100
+INCR stats:pageviews:home
+INCRBY stats:pageviews:home 50
+GET stats:pageviews:home
+
+--step C
+SET promo:summer '20_OFF' EX 60
+EXISTS promo:summer
+TTL promo:summer
+
+--step D
+KEYS stats:*
+EXISTS promo:summer
+DEL stats:pageviews:home
+
+
+--task 2
+
+
+--part 1
+-setup
+
+--part 2
+
+--A
+--1.
+GET config:site_name
+--2.
+KEYS user:101*
+MGET user:101:email user:101:name user:101:status
+
+--B
+--1.
+TTL promo:code:FALL2026
+--2.
+EXPIRE session:token:usr101_abc 120
+TTL session:token:usr101_abc
+--3.
+SET reset:code:usr101 883912 EX 30
+
+--C.
+--1.
+INCR metrics:daily_active_users
+--2.
+INCRBY metrics:daily_active_users 50
+--3.
+DECR metrics:available_course_slots
+
+--D.
+--1.
+SETNX config:site_name "Educloud Pro"
+--2.
+EXISTS promo:code:FALL2026
+--3.
+DEL config:maintenance_mode
+
+
+--task 3
+
+
+--part 1 
+-setup
+
+--part 2
+
+--A.
+--1.
+HGET user:1001 email
+--2.
+HGETALL user:1002
+--3.
+HSET user:1001 city "Wroclaw"
+
+HINCRBY user:1001 age 1
+--4.
+HKEYS user:1001
+
+--B.
+
+--1.
+LRANGE support:queue 0 -1
+--2.
+RPOP support:queue
+--3.
+RPUSH support:queue "ticket_104: VIP payment issue"
+
+--C.
+
+--1.
+SISMEMBER tags:smartphone "electronics"
+--2.
+SINTER tags:laptop tags:smartphone
+--3.
+SUNION tags:laptop tags:clearence
+--4.
+SREM tags:laptop sale
+
+
+--task 4
+
+
+--part 1
+-setup 
+
+--part 2
+
+--A.
+--1.
+ZRANGE leaderboard:global 0 2 WITHSCORES
+--2.
+ZREVRANGE leaderboard:global 0 2 WITHSCORES
+--3.
+ZREVRANK leaderboard:global "Player_Charlie"
+
+--B.
+
+--1.
+ZSCORE leaderboard:global "Player_Bravo"
+--2.
+ZCOUNT leaderboard:global 1500 2500
+--3.
+ZREVRANGEBYSCORE leaderboard:global 3500 2000 WITHSCORES
+
+--C.
+
+--1.
+ZINCRBY leaderboard:global 400 "Player_Alpha"
+--2.
+ZSCORE leaderboard:global "Player_Alpha"
+
+ZREVRANGE leaderboard:global 0 -1 WITHSCORES
+
+ZREVRANK leaderboard:global "Player_Alpha"
+--3.
+ZREM leaderboard:global "Player_Echo"
